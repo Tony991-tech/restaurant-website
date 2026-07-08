@@ -1,0 +1,108 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    background: #8b0000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+logo{
+    font-size: 28px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+nav ul{
+    display:flex;
+    list-style: none;
+}
+
+nav ul li{
+   margin-left: 30px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: gold;
+}
+
+.hero{
+    background: #f8f8f8;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size: 50px;
+    color:#8b0000;
+}
+
+.hero p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.btn{
+    background: #8b0000;
+    color: white;
+    padding: 15px 35px;
+    text-decoration:none;
+    border-radius: 5px;
+    display:inline-block;
+}
+
+.btn:hover{
+    background: gold;
+    color: black;
+}
+
+.menu{
+    padding: 80px 50px;
+    text-align:center;
+}
+
+.menu h2{
+    font-size:40px;
+    color:#8b0000;
+    margin-bottom: 40px;
+}
+
+.menu-container{
+display:flex;
+justify-content:center;
+gap: 30px;
+flex-wrap:wrap;
+}
+
+.card{
+    width:250px;
+    background:white;
+    padding:white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.card h3{
+    color:#8b0000;
+    margin-bottom: 10px;
+}
